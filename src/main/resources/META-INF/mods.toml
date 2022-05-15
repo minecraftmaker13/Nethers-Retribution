@@ -3,14 +3,14 @@ loaderVersion="[40,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="the_lush_void"
+modId="dimensional_expanse"
 version="1.0.0"
-displayName="The Lush Void"
+displayName="The Dimensional Expanse"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="dooli, MCreator"
 
-[[dependencies.the_lush_void]]
+[[dependencies.dimensional_expanse]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"

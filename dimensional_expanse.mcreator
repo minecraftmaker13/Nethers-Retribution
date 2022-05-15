@@ -10,8 +10,8 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "the_lush_void",
-    "modName": "The Lush Void",
+    "modid": "dimensional_expanse",
+    "modName": "The Dimensional Expanse",
     "version": "1.0.0",
     "author": "dooli, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -23,7 +23,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "modElementsPackage": "net.mcreator.thelushvoid",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.dimensionalexpanse",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200120510

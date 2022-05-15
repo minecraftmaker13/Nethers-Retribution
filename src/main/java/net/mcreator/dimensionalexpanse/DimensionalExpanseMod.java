@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.thelushvoid;
+package net.mcreator.dimensionalexpanse;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -30,16 +30,16 @@ import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
-@Mod("the_lush_void")
-public class TheLushVoidMod {
-	public static final Logger LOGGER = LogManager.getLogger(TheLushVoidMod.class);
-	public static final String MODID = "the_lush_void";
+@Mod("dimensional_expanse")
+public class DimensionalExpanseMod {
+	public static final Logger LOGGER = LogManager.getLogger(DimensionalExpanseMod.class);
+	public static final String MODID = "dimensional_expanse";
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
 			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
 
-	public TheLushVoidMod() {
+	public DimensionalExpanseMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
